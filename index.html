@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moon Star Super 20 Application</title>
+<style>
+body { font-family: Arial; background:#f4f6f8; }
+form { width:400px; margin:40px auto; background:white; padding:20px; border-radius:8px; }
+input, select, button {
+  width:100%; padding:10px; margin-top:10px;
+}
+button { background:#0b5ed7; color:white; border:none; cursor:pointer; }
+</style>
+</head>
+<body>
+
+<form action="submit.php" method="post">
+<h2>Moon Star Super 20 Entrance Exam</h2>
+
+<input type="text" name="name" placeholder="Student Name" required>
+<input type="text" name="father" placeholder="Father's Name" required>
+<input type="date" name="dob" required>
+<input type="text" name="phone" placeholder="Mobile Number" required>
+<input type="text" name="school" placeholder="School Name" required>
+
+<select name="class" required>
+<option value="">Select Class</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+</select>
+
+<button type="submit">Submit Application</button>
+</form>
+
+</body>
+</html>
